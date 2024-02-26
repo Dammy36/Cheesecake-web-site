@@ -24,28 +24,29 @@
   </head>
   <body>
     <div class="container-nav">
-      <nav>
+      <nav class="collapsible">
         <img
           src="
 
 https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/213/original/LOGO_OF_CHEESECAKE.png?1707834525"
           alt=" Logo"
         />
-        <ul>
+        <div><img src="image/menu.svg" alt="menu-bar" class="menu" /></div>
+        <ul class="nav-list collapsible__content">
           <a href="#" target="_blank" rel="noopener noreferrer"
-            ><span class="nav-home"> Home</span>
+            ><span class="nav-home nav__item"> Home</span>
           </a>
-          <li>
+          <li class="nav__item">
             <a href="#" target="_blank" rel="noopener noreferrer"> About Us</a>
           </li>
-          <li>
+          <li class="nav__item">
             <a href="#" target="_blank" rel="noopener noreferrer"> Menu</a>
           </li>
-          <li>
+          <li class="nav__item">
             <a href="#" target="_blank" rel="noopener noreferrer"> Contact</a>
           </li>
         </ul>
-        <div class="nav-sign">Sign Up</div>
+        <div class="nav-sign nav__item">Sign Up</div>
       </nav>
       <section class="container hero grid-1x2">
         <div class="hero-content block--header">
@@ -54,7 +55,7 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/213/origina
             We always make our customer happy by providing as many choice as
             possible
           </p>
-          <button class="hero-button">Get Started</button>
+          <button class="hero-button btn--strech">Get Started</button>
           <button class="hero-button-2">
             <i class="fa-solid fa-play"></i>
             Watch Demo
