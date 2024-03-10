@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
+  background-color: #fff8e1;
 }
 .container-nav {
   background: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/214/original/MAIN_BG.png?1707835380);
@@ -32,11 +33,11 @@ nav {
 ul {
   list-style: none;
 }
-ul a {
+a {
   text-decoration: none;
   color: #f0dbce;
 }
-ul a:hover {
+a:hover {
   text-decoration: none;
   color: #ffffff;
 }
@@ -181,4 +182,23 @@ h1 {
 
 .fa-play:hover {
   color: #ffffff;
+}
+
+.grid {
+  display: grid;
+}
+h2 {
+  font-size: 60px;
+  color: 220404;
+  font-weight: 400;
+  font-family: "Inika", serif;
+}
+
+.header-section {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 579px;
+  font-size: 20px;
+  padding-left: 20px;
 }
