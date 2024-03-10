@@ -72,6 +72,10 @@ a:hover {
   .grid-1x2 {
     grid-template-columns: 1fr 1fr;
   }
+
+  .grid-1x3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   .hero-content {
     text-align: left;
     align-self: center;
@@ -131,6 +135,32 @@ a:hover {
   .nav-list {
     width: auto;
   }
+  h2 {
+    font-size: 60px;
+  }
+  .hero-content2 {
+    padding-left: 20px;
+  }
+
+  .header-section {
+    width: 579px;
+  }
+
+  menu {
+    height: 90vh;
+  }
+
+  .menu-content {
+    margin-left: 20px;
+  }
+
+  .blueberry-content {
+    font-size: 25px;
+  }
+
+  .view-content a {
+    font-size: 24px;
+  }
 }
 
 h1 {
@@ -186,9 +216,10 @@ h1 {
 
 .grid {
   display: grid;
+  gap: 20px;
 }
 h2 {
-  font-size: 60px;
+  font-size: 45px;
   color: 220404;
   font-weight: 400;
   font-family: "Inika", serif;
@@ -198,7 +229,85 @@ h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  width: 579px;
+  width: 480px;
   font-size: 20px;
-  padding-left: 20px;
+  padding-left: 0;
+}
+
+menu {
+  background-color: #6a4028;
+
+  position: relative;
+}
+
+h3 {
+  font-family: "Inika", serif;
+  font-weight: 400;
+  font-size: 64px;
+  margin: 50px;
+  text-align: center;
+  color: #fff8e1;
+}
+.card {
+  max-width: 500px;
+  border-radius: 40px;
+  background-color: #fff8e1;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cheesecake-image {
+  margin: 0 auto;
+  display: block;
+}
+.menu-content {
+  margin-left: 10px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.blueberry-content {
+  font-family: "inika", serif;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.blueberry-content2 {
+  font-family: "Recursive", sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 0.5;
+}
+.content-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.dollar-sign {
+  color: #53a623;
+  font-weight: bold;
+}
+
+.fa-star-symbol {
+  margin-right: 20px;
+}
+.fa-star {
+  color: #6a4028;
+  font-size: 12px;
+}
+
+.view-content {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  color: #fff8e1;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.arrow {
+  width: 12px;
+  height: 12px;
 }
